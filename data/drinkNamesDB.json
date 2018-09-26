@@ -1,0 +1,280 @@
+{
+  "ingredients": [
+    {
+      "name": "Vodka",
+      "prefix": [
+        "Kartoffel-",
+        "Russen-"
+      ],
+      "word": [
+        "Vodka",
+        "Russe"
+      ],
+      "suffix": [
+        "mit Vodka",
+        "mit der reinen Seele"
+      ]
+    },
+    {
+      "name": "brauner Rum",
+      "prefix": [
+        "Zuckerrohr-",
+        "Barbados-"
+      ],
+      "word": [
+        "Rum",
+        "Pirat",
+        "ARRRRRRRRR",
+        "Fassgut",
+        "Skorbut"
+      ],
+      "suffix": [
+        "mit schlechten Zähnen und einer Augenklappe",
+        "-Pirat"
+      ]
+    },
+    {
+      "name": "weißer Rum",
+      "prefix": [
+        "Zuckerrohr-",
+        "Barbados-"
+      ],
+      "word": [
+        "Rum",
+        "Pirat",
+        "ARRRRRRRRR",
+        "Fassgut",
+        "Skorbut"
+      ],
+      "suffix": [
+        "mit schlechten Zähnen und einer Augenklappe",
+        "-Pirat"
+      ]
+    },
+    {
+      "name": "Whisky",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Gin",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Tequila",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Korn",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Asbach Uralt",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Cachaca",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Ficken",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Pfeffi",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Malibu",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "43er",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Blue Curacao",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Feigling",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Maracuja",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "Zitronensaft",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    },
+    {
+      "name": "O-Saft",
+      "prefix": [
+        "pref1x-",
+        "Pref2x-"
+      ],
+      "word": [
+        "N1me",
+        "N2me"
+      ],
+      "suffix": [
+        "-Suff1x",
+        "-Suff2x"
+      ]
+    }
+  ]
+}
