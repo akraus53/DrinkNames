@@ -17,6 +17,7 @@ function preload() {
 
 function setup() {
   noCanvas();
+  
   ingredients = db.ingredients;
 
   let text1 = createP("Deine ausgewählten Zutaten sind: ");
@@ -25,18 +26,25 @@ function setup() {
   for (let i = 0; i < ingredients.length; i++) {
     buttons[i] = createButton(ingredients[i].name);
     buttons[i].mousePressed(() => {
-      if(!choices.includes(i)){
-      choices.push(i);
-      prepareDrinknames()
+      if (!choices.includes(i)) {
+        choices.push(i);
+        prepareDrinknames()
       } else {
         choices.pop(choices.indexOf(i));
         prepareDrinknames()
       }
     });
+    
+    but = createButton("test");
+    but.attribute('background-color','#abc');
   }
+  
 
   div = createDiv("- keine -").size(600, 100);
   drinkName = createDiv("ein großes Glas nix");
+}
+
+function draw() {
 }
 
 function prepareDrinknames() {
