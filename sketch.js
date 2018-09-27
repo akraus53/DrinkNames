@@ -69,10 +69,14 @@ function prepareDrinknames() {
 
   }
 
+let name = findAName(mixes);	
+  drinkName.html(name);
+	
   if (mixes.length == 0) {
     drinkName.html("ein großes Glas nix");
   }
-
+}
+function findAName(mixes){
 
   let name = "ein großes Glas nix";
 
@@ -95,5 +99,5 @@ function prepareDrinknames() {
 
     name = name + random(ingredients[next.index].suffix);
   }
-  drinkName.html(name);
+	return name;
 }
