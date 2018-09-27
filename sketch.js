@@ -9,7 +9,7 @@ let drinkName;
 
 function preload() {
   // Load Drinknames JSOn from Github
-  loadJSON("https://raw.githubusercontent.com/akraus53/DrinkNames/master/data/drinkNamesDB.json", function(v) {
+  loadJSON("data/drinkNamesDB.json", function(v) {
     db = v
   });
 }
