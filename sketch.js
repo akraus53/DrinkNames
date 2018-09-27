@@ -37,7 +37,7 @@ function setup() {
 
   }
 
-
+  createDiv("Der Name deines Drinks ist:");
   drinkName = createDiv("ein großes Glas nix");
 }
 
