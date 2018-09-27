@@ -69,7 +69,6 @@ function prepareDrinknames() {
 
   }
 
-  let zutatenString = "";
   if (mixes.length == 0) {
     drinkName.html("ein großes Glas nix");
   }
