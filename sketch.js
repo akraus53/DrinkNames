@@ -66,38 +66,31 @@ function prepareDrinknames() {
       name: ingredients[choices[i]].name,
       index: choices[i]
     });
-
   }
 
-let name = findAName(mixes);	
+  let name = findAName(mixes);	
   drinkName.html(name);
-	
-  if (mixes.length == 0) {
-    drinkName.html("ein großes Glas nix");
-  }
 }
-function findAName(mixes){
-
+function findAName(ingr){
   let name = "ein großes Glas nix";
 
   // Choose random first word
-  if (mixes.length != 0) {
-    let main = mixes.shift();
+  if (ingr.length != 0) {
+    let main = ingr.shift();
     name = random(ingredients[main.index].word);
   }
 
   // Choose random Prefix
-  if (mixes.length != 0) {
-
-    let side = mixes.shift();
+  if (ingr.length != 0) {
+    let side = ingr.shift();
     name = random(ingredients[side.index].prefix) + name;
   }
 
   // Choose random Suffix for all remaining 
-  while (mixes.length != 0) {
-    next = mixes.shift();
-
+  while (ingr.length != 0) {
+    next = ingr.shift();
     name = name + random(ingredients[next.index].suffix);
   }
-	return name;
+	
+  return name;
 }
