@@ -20,7 +20,7 @@ function setup() {
 
   ingredients = db.ingredients;
 
-  let text1 = createP("Deine ausgewählten Zutaten sind: ");
+  let text1 = createP("Wähle bitte hier deine Zutaten aus:");
 
   // Draw Buttons
   for (let i = 0; i < ingredients.length; i++) {
