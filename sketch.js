@@ -30,7 +30,7 @@ function setup() {
         choices.push(i);
         prepareDrinknames()
       } else {
-        choices.pop(choices.indexOf(i));
+        choices.splice(choices.indexOf(i), 1);
         prepareDrinknames()
       }
     });
