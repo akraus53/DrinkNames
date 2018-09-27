@@ -17,7 +17,7 @@ function preload() {
 
 function setup() {
   noCanvas();
-  
+
   ingredients = db.ingredients;
 
   let text1 = createP("Deine ausgewählten Zutaten sind: ");
@@ -34,17 +34,29 @@ function setup() {
         prepareDrinknames()
       }
     });
-    
-    but = createButton("test");
-    but.attribute('background-color','#abc');
-  }
-  
 
-  div = createDiv("- keine -").size(600, 100);
+  }
+
+
   drinkName = createDiv("ein großes Glas nix");
 }
 
 function draw() {
+  colorMode(HSB);
+	let fc = frameCount / 10;
+  colA = color((fc + 30) % 255, 255, 200);
+  colB = color((fc + 110) % 255, 255, 200);
+  colC = color((fc + 190) % 255, 255, 200);
+
+  for (let i = 0; i < buttons.length; i++) {
+    if (choices.includes(i)) {
+      buttons[i].style('background-color', colC);
+
+    } else
+      buttons[i].style('background-color', colB);
+  }
+
+  select('html').style('background', colA);
 }
 
 function prepareDrinknames() {
@@ -59,15 +71,9 @@ function prepareDrinknames() {
 
   let zutatenString = "";
   if (mixes.length == 0) {
-    zutatenString = "- keine -";
     drinkName.html("ein großes Glas nix");
   }
 
-  for (let i = 0; i < mixes.length; i++) {
-    zutatenString = zutatenString + mixes[i].name + ", ";
-  }
-
-  div.html(zutatenString, false);
 
   let name = "ein großes Glas nix";
 
